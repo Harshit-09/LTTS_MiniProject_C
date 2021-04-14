@@ -31,7 +31,7 @@ TBD
 
 ## Defining Our System
 
-![System Outline](1_Requirements/systemOutline.png)
+![System Outline](/1_Requirements/systemOutline.png)
 
 The application provides the following options on entering
 1. Introduction
