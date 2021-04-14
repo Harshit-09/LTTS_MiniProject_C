@@ -1,5 +1,9 @@
 # Design
 
+## Use Case Diagram
+
+![Use Case Diagram](/2_Design/UseCaseDiagram.png)
+
 ## High Level Design 
 
 --- TBD Structural and Behavioural Diagram

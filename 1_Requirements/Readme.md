@@ -44,7 +44,7 @@ The application provides the following options on entering
 for Options 2-6, the user can choose to Learn or Practice.
 
 ## SWOT ANALYSIS
-![SWOT-Sample](1_Requirements/CryptoWhat_SWOTAnalysis.png)
+![SWOT-Sample](/1_Requirements/CryptoWhat_SWOTAnalysis.png)
 
 # 4W&#39;s and 1&#39;H
 
