@@ -1,5 +1,17 @@
 # SDLC Activity Based Learning
 
+# CryptoWhat?
+
+![CryptoWhat?](cryptowhat_logo.jpg)
+
+This is your kickstart module into learning the basics of Cryptography.
+Learn and practice the basic substituition techniques
+1. Caesar Cipher
+2. Monoalphabetic Cipher
+3. Playfair Cipher
+4. Hill Cipher
+5. Polyalphabetic Cipher
+
 Visit [Pages for Report -optional](using github.io option)
 
 Build | Code Quality | Unity | [Git Inspector](using github.io option)
@@ -15,12 +27,6 @@ Folder             | Description
 `3_Implementation` | All code and documentation
 `4_Test_plan`      | Documents with test plans and procedures
 
-## Contributors List and Summary
-
-PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
--------|---------|----------------|----------------|---------------|-------------|--------------
-`ABC` | 12345678  | Feature A, B etc    | X No     | X No   |X No   |X No     
-`DEF` | 12345678  | Feature C, D etc    | X No     | X No   |X No   |X No     
 
 ## Challenges Faced and How Was It Overcome
 
