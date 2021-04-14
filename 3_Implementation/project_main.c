@@ -1,112 +1,38 @@
-#include <calculator_operations.h>
+/**
+ * @file project_main.c
+ * @author Amrutha Varshini
+ * @brief CryptoWhat Home page
+ * @version 0.1
+ * @date 2021-04-14
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
 
-/* Status of the operation requested */
-#define VALID   (1)
-#define INVALID (0)
+#include<Stdio.h>
 
-/* Calculator operation requested by user*/
-unsigned int calculator_operation = 0;
+int main(){
+    int choice;
+    printf("Welcome to CryptoWhat?\nYour kickstart into the Cryptography Journey\n");
+    printf("Enter a Number between 1-6 to begin your journey\nSuggestion: If you are a newbie, Head to Introduction first\n");
+    printf("1. Introduction\n2. Caesar Cipher\n3.Monoalphabetic Cipher\n4. Playfair Cipher\n5. Hill Cipher\n6. Polyalphabetic Cipher ");
+    scanf("%d ",&choice);
 
-/* Operands on which calculation is performed */
-int calculator_operand1 = 0;
-int calculator_operand2 = 0;
-
-/* Valid operations */
-enum operations{ ADD=1, SUBTRACT, MULTIPLY, DIVIDE, EXIT };
-
-/* Display the menu of operations supported */
-void calculator_menu(void);
-/* Verifies the requested operations validity */
-int valid_operation(int operation);
-
-
-/* Start of the application */
-int main(int argc, char *argv[])
-{
-    printf("\n****Calculator****\n");
-    while(1)
-    {
-        calculator_menu();
+    // Following output messages are only to test user input
+    switch(choice){
+        case 1: printf("Hurray! Introduction"); 
+                break;
+        case 2: printf("Hurray! Caesar"); 
+                break;
+        case 3: printf("Hurray! Mono"); 
+                break;
+        case 4: printf("Hurray! Playfairf"); 
+                break;
+        case 5: printf("Hurray! HIll"); 
+                break;     
+        case 6: printf("Hurray! polyy"); 
+                break;
+        default: printf("Try again please"); 
+                break;         
     }
-}
-
-void calculator_menu(void)
-{
-    printf("\nAvailable Operations\n");
-    printf("\n1. Add\n2. Subtract\n3. Multiply\n4. Divide\n5. Exit");
-    printf("\n\tEnter your choice\n");
-   
-     // __fpurge(stdin);
-    scanf("%d", &calculator_operation);
-
-    if(EXIT == calculator_operation)
-    {
-        printf("\nThank you. Exiting the Application\n");
-        exit(0);
-    }
-
-    if(INVALID != valid_operation(calculator_operation))
-    {
-        printf("\n\tEnter your Numbers with space between them\n");
-        // __fpurge(stdin);
-        scanf("%d %d", &calculator_operand1, &calculator_operand2);
-    }
-    else
-    {
-        printf("\n\t---Wrong choice---\nEnter to continue\n");
-        // __fpurge(stdin);
-        getchar();
-        return;
-        
-    }
-    switch(calculator_operation)
-    {
-        case ADD:
-            printf("\n\t%d + %d = %d\nEnter to continue", 
-            calculator_operand1, 
-            calculator_operand2,
-            add(calculator_operand1, calculator_operand2));
-            
-            // __fpurge(stdin);
-            getchar();
-            break;
-        case SUBTRACT:
-            printf("\n\t%d - %d = %d\nEnter to continue", 
-            calculator_operand1, 
-            calculator_operand2,
-            subtract(calculator_operand1, calculator_operand2));
-            
-            // __fpurge(stdin);
-            getchar();
-            break;
-        case MULTIPLY:
-            printf("\n\t%d * %d = %d\nEnter to continue", 
-            calculator_operand1, 
-            calculator_operand2,
-            multiply(calculator_operand1, calculator_operand2));
-            
-            // __fpurge(stdin);
-            getchar();
-            break;
-        case DIVIDE:
-            printf("\n\t%d / %d = %d\nEnter to continue", 
-            calculator_operand1, 
-            calculator_operand2,
-            divide(calculator_operand1, calculator_operand2));
-            
-            // __fpurge(stdin);
-            getchar();
-            break;
-        case 5:
-            exit(0);
-            break;
-        default:
-            printf("\n\t---It should never come here---\n");
-    }
-}
-
-int valid_operation(int operation)
-{
-    /* Check if the operation is a valid operation */
-    return ((ADD <= operation) && (EXIT >= operation)) ? VALID: INVALID;
 }
