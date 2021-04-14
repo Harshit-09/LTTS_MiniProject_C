@@ -1,17 +1,17 @@
 # Design
 
+## High Level Design 
+
+## System Outline
+
+![System Outline](/1_Requirements/systemOutline.png)
+
 ## Use Case Diagram
 
 ![Use Case Diagram](/2_Design/UseCaseDiagram.png)
 
-## High Level Design 
-
---- TBD Structural and Behavioural Diagram
-![HighLevelStructuralDiagram](Link to Pic)
-![HighLevelBehaviouralDiagram](Link to Pic)
-
 ## Low Level Design 
 
---- TBD Structural and Behavioural Diagram
-![FeaturesLevelStructuralDiagram](Link to Pic)
-![FeaturesBehaviouralDiagram](Link to Pic)
+## State Chart Diagram
+
+![STate Chart Diagram](/2_Design/StateChartDiagram.png)

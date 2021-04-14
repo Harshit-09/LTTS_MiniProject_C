@@ -80,9 +80,20 @@ the application aims to reduce exhaustion in learners and increases engagement.
 # Detail requirements
 ## High Level Requirements:
 --- TBD in Tabular Format 
--- ID | Description | Status (Implemented/Future)
-
+-- ID   | Description | Status (Implemented/Future)
+-- HR01 | User shall be able to choose what topic to explore | 
+-- HR02 | User shall be able to view and learn each topic |
+-- HR03 | User shall be able to practice given questions for each topic |
+-- HR04 | User shall be able to verify their answers for practice questions |
+-- HR05 | System should be able to run smoothly with any given user input |
 
 ##  Low level Requirements:
 --- TBD in Tabular Format 
 -- ID | Description | Status (Implemented/Future)
+-- LR01 | User shall be able to choose topic in one of 6 ways from the Home page 1) Introduction 2) Caesar Cipher 3) Monoalphabetic Cipher 4) Playfair Cipher 5) Hill Cipher 6) Polyalphabteic Cipher |
+-- LR02 | User shall be redirected to a new page containing Information depending on the choice of topic |
+-- LR03 | User shall be able to choose to Practice or go to Home page |
+-- LR04 | For every question user is prompted to enter a valid answer which is sent for verification |
+-- LR05 | User shall be displayed error if entered input consists of characters except alphanumeric characters and space |
+-- LR06 | User shall be able to receive a result of Correct/Incorrrect for every answer to the Practice Question |
+-- LR07 | User shall be able to choose to retry the Practice Questions for that topic or go back to Home page.
