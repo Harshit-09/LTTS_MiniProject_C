@@ -31,3 +31,8 @@ Folder             | Description
 ## Challenges Faced and How Was It Overcome
 
 TBD
+
+## Learning Resources 
+
+--Geeks for Geeks
+--Cryptography and Network Security by William Stallings
