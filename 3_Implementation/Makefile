@@ -35,10 +35,10 @@ test: $(SRC) $(TEST_SRC) $(BUILD_DIR)
 	gcc $(SRC) $(TEST_SRC) $(INC) -o $(call FixPath,$(BUILD_DIR)/$(TEST_PROJ_NAME).$(EXEC))
 	$(call FixPath,$(BUILD_DIR)/$(TEST_PROJ_NAME).$(EXEC))
 
-coverage:${PROJECT_NAME}
+coverage:${PROJECT_NAME} $(SRC) $(TEST_SRC) $(BUILD_DIR)
 	gcc -fprofile-arcs -ftest-coverage $(SRC) $(TEST_SRC) $(INC) -o $(call FixPath,$(BUILD_DIR)/$(TEST_PROJ_NAME).$(EXEC))
 	$(call FixPath,$(BUILD_DIR)/$(TEST_PROJ_NAME).$(EXEC))
-	gcov -a $(SRC)
+	gcov caesar.gcno
 
 $(BUILD_DIR):
 	mkdir $(BUILD_DIR)
