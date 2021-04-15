@@ -82,9 +82,9 @@ the application aims to reduce exhaustion in learners and increases engagement.
 | ID   | Description | Status (Implemented/Future) |
 |---|---|---|
 | HR01 | User shall be able to choose what topic to explore | Implemented |
-| HR02 | User shall be able to view and learn each topic | Implemented |
-| HR03 | User shall be able to practice given questions for each topic |  Implemented |
-| HR04 | User shall be able to verify their answers for practice questions | Implemented |
+| HR02 | User shall be able to view and learn each topic | Implemented for one choice |
+| HR03 | User shall be able to practice given questions for each topic |  Implemented for one choice |
+| HR04 | User shall be able to verify their answers for practice questions | Implemented for one choice |
 | HR05 | System should be able to run smoothly with any given user input | Future |
 
 ##  Low level Requirements:
@@ -92,7 +92,7 @@ the application aims to reduce exhaustion in learners and increases engagement.
 | ID | Description | Status (Implemented/Future)
 |---|---|---|
 | LR01 | User shall be able to choose topic in one of 6 ways from the Home page 1) Introduction 2) Caesar Cipher 3) Monoalphabetic Cipher 4) Playfair Cipher 5) Hill Cipher 6) Polyalphabteic Cipher | Implemented |
-| LR02 | User shall be redirected to a new page containing Information depending on the choice of topic | Implemented |
+| LR02 | User shall be redirected to a new page containing Information depending on the choice of topic | Implemented for one choice |
 | LR03 | User shall be able to choose to Practice or go to Home page | Future |
 | LR04 | For every question user is prompted to enter a valid answer which is sent for verification | Implemented |
 | LR05 | User shall be displayed error if entered input consists of characters except alphabet characters and space | Implemented |
