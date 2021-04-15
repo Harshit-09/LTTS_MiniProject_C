@@ -3,7 +3,8 @@ TEST_PROJ_NAME = Test_$(PROJ_NAME)
 
 BUILD_DIR = Build
 
-SRC = src/caesar.c
+SRC = src/caesar.c\
+src/introduction.c
 
 TEST_SRC = test/test_crypto.c\
 unity/unity.c

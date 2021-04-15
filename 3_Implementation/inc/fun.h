@@ -19,6 +19,8 @@ typedef enum error_msg{
     INVALID_INPUT=-1
 }error_msg;
 
+void intro();
+
 void caesar_intro();
 
 error_msg caesar_calc(char* in,int* key, char* outpu,char* ciphert);
