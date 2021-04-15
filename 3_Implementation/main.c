@@ -20,19 +20,19 @@ int main(){
    // printf("\n%d\n",choice);
     // Following output messages are only to test user input
     switch(choice){
-        case 1: printf("Hurray! Introduction"); 
+        case 1: printf("\n\nCheck back again Later for this module"); 
                 break;
         case 2: caesar_intro();
                 break;
-        case 3: printf("Hurray! Mono"); 
+        case 3: printf("\n\nCheck back again Later for this module"); 
                 break;
-        case 4: printf("Hurray! Playfairf"); 
+        case 4: printf("\n\nCheck back again Later for this module"); 
                 break;
-        case 5: printf("Hurray! HIll"); 
+        case 5: printf("\n\nCheck back again Later for this module"); 
                 break;     
-        case 6: printf("Hurray! polyy"); 
+        case 6: printf("\n\nCheck back again Later for this module"); 
                 break;
-        default: printf("Try again please"); 
+        default: printf("\n\nCheck back again Later for this module"); 
                 break;         
     }
 }

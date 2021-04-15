@@ -81,20 +81,20 @@ the application aims to reduce exhaustion in learners and increases engagement.
 ## High Level Requirements:
 | ID   | Description | Status (Implemented/Future) |
 |---|---|---|
-| HR01 | User shall be able to choose what topic to explore | Future |
-| HR02 | User shall be able to view and learn each topic | Future |
-| HR03 | User shall be able to practice given questions for each topic |  Future |
-| HR04 | User shall be able to verify their answers for practice questions | Future |
+| HR01 | User shall be able to choose what topic to explore | Implemented |
+| HR02 | User shall be able to view and learn each topic | Implemented |
+| HR03 | User shall be able to practice given questions for each topic |  Implemented |
+| HR04 | User shall be able to verify their answers for practice questions | Implemented |
 | HR05 | System should be able to run smoothly with any given user input | Future |
 
 ##  Low level Requirements:
 
 | ID | Description | Status (Implemented/Future)
 |---|---|---|
-| LR01 | User shall be able to choose topic in one of 6 ways from the Home page 1) Introduction 2) Caesar Cipher 3) Monoalphabetic Cipher 4) Playfair Cipher 5) Hill Cipher 6) Polyalphabteic Cipher | Future |
-| LR02 | User shall be redirected to a new page containing Information depending on the choice of topic | Future |
+| LR01 | User shall be able to choose topic in one of 6 ways from the Home page 1) Introduction 2) Caesar Cipher 3) Monoalphabetic Cipher 4) Playfair Cipher 5) Hill Cipher 6) Polyalphabteic Cipher | Implemented |
+| LR02 | User shall be redirected to a new page containing Information depending on the choice of topic | Implemented |
 | LR03 | User shall be able to choose to Practice or go to Home page | Future |
-| LR04 | For every question user is prompted to enter a valid answer which is sent for verification | Future |
-| LR05 | User shall be displayed error if entered input consists of characters except alphanumeric characters and space | Future |
-| LR06 | User shall be able to receive a result of Correct/Incorrrect for every answer to the Practice Question | Future |
+| LR04 | For every question user is prompted to enter a valid answer which is sent for verification | Implemented |
+| LR05 | User shall be displayed error if entered input consists of characters except alphabet characters and space | Implemented |
+| LR06 | User shall be able to receive a result of Correct/Incorrrect for every answer to the Practice Question | Implemented |
 | LR07 | User shall be able to choose to retry the Practice Questions for that topic or go back to Home page.| Future |

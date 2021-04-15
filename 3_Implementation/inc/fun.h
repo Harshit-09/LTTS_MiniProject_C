@@ -19,12 +19,7 @@ typedef enum error_msg{
     INVALID_INPUT=-1
 }error_msg;
 
-/**
- * @brief typedef definition for a string of 100 characters
- * 
- */
-typedef char s;
-
 void caesar_intro();
 
-error_msg caesar_calc(s* in,int* key, s* outpu,s* ciphert);
+error_msg caesar_calc(char* in,int* key, char* outpu,char* ciphert);
+
