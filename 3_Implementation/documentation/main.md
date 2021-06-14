@@ -1,1 +1,1 @@
-@mainpage Crypto by Amruth Varshini K Sriram @subpage Main_prog_geocalc.c
+@mainpage Crypto by Amrutha Varshini K Sriram @subpage main.c
